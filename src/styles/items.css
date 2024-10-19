@@ -1,0 +1,32 @@
+.main-items-container{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    padding: 50px;
+    padding: 50px 30px;
+    margin-top: 50px;
+    font-family: sans-serif , 'Franklin Gothic Medium', 'Arial Narrow', Arial;
+}
+
+.main-heading-items{
+    font-size: 24px;
+    font-weight: bold;
+    margin: 0;
+    font-family: sans-serif , 'Franklin Gothic Medium', 'Arial Narrow', Arial;
+}
+
+/* items.css */
+.main-items-container {
+    padding: 20px;
+  }
+  
+  .main-heading-items {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  .items-scroll-container::-webkit-scrollbar {
+    display: none; /* Hide scrollbar for cleaner UI */
+  }
+
+  

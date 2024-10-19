@@ -1,0 +1,37 @@
+.categories-page-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 50px;
+    gap: 30px;
+    flex-wrap: wrap;
+}
+
+.categories-page{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.categories-page h1{
+    font-size: 35px;
+    font-weight: bold;
+    color: black;
+    margin: 0;
+    font-family: sans-serif, 'Franklin Gothic Medium', 'Arial Narrow', Arial;
+    position: relative;
+}
+
+.categories-page h1::after {
+    content: '';
+    position: absolute;
+    width: 90%; /* You can adjust the width */
+    height: 8px; /* Thickness of the underline */
+    background-color: #000000; /* Change to your preferred color */
+    bottom: -15px; /* Adjust the position of the underline */
+    left: 0; /* Center the underline */
+    border-radius: 15px; /* Optional: round the edges */
+}

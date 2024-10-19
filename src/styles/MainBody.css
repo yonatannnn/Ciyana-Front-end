@@ -1,0 +1,8 @@
+/* MainBody.css */
+.main-body {
+    background: linear-gradient(to bottom, #000000 2%, #fcfcfc 98%);
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+  }
+  
